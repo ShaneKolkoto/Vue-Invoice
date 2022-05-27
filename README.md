@@ -4,7 +4,7 @@ This demo helps ensure that the invoices you send actually reach your customers.
 
 ## Demo
 
-Insert gif or link to demo
+[Live Link](https://invoice-app-d9aa8.web.app)
 
 ## Acknowledgements
 
