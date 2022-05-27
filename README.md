@@ -37,8 +37,6 @@ export default firebaseApp.firestore();
 
 ```
 
-```
-
 ## Project setup
 
 ```
@@ -92,4 +90,7 @@ npm run lint
 #### PDF
 
 ![PDF](./src/assets/screenshots/screen_shoot_00004.png)
+
+```
+
 ```
