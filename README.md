@@ -1,6 +1,6 @@
 # Vue Invoice
 
-This demo helps ensure that the invoices you send actually reach your customers. Your clients may also appreciate timely reminders to clear their past-due balances and avoid penalties.
+This demo helps ensure that the invoices you send actually reach your customers. Your clients may also appreciate the pdf formate layout.
 
 ## Demo
 
