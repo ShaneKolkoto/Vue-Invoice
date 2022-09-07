@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "firebase": "^9.8.1",
+    "firebase": "^9.9.4",
     "html-to-pdfmake": "^2.3.11",
     "moment": "^2.29.3",
     "pdfmake": "^0.2.5",
