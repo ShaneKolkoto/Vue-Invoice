@@ -13,6 +13,15 @@
       <div class="bill-from flex flex-column">
         <h4>Bill From</h4>
         <div class="input flex flex-column">
+          <label for="billerStreetAddress">Comapny</label>
+          <input
+            :disabled="true"
+            type="text"
+            id="billerStreetAddress"
+            v-model="billerName"
+          />
+        </div>
+        <div class="input flex flex-column">
           <label for="billerStreetAddress">Street Address</label>
           <input
             :disabled="true"
@@ -51,11 +60,11 @@
       <div class="bill-to flex flex-column">
         <h4>Bill To</h4>
         <div class="input flex flex-column">
-          <label for="clientName">Company Name</label>
+          <label for="clientName">Name</label>
           <input required type="text" id="clientName" v-model="clientName" />
         </div>
         <div class="input flex flex-column">
-          <label for="clientEmail">Company Email/Contact</label>
+          <label for="clientEmail"> Email/Contact</label>
           <input required type="text" id="clientEmail" v-model="clientEmail" />
         </div>
         <div class="input flex flex-column">
@@ -214,10 +223,11 @@ export default {
       dateOptions: { year: "numeric", month: "short", day: "numeric" },
       docId: null,
       loading: null,
-      billerStreetAddress: "Insert your company street address",
-      billerCity: "Insert company city",
-      billerZipCode: "Insert company zip code",
-      billerCountry: "Insert company country",
+      billerName: "ZeeFit",
+      billerStreetAddress: "Brackengate, Tiber Rd, Brackenfell South",
+      billerCity: "Cape Town",
+      billerZipCode: "7560",
+      billerCountry: "ZA",
       clientName: null,
       clientEmail: null,
       clientStreetAddress: null,

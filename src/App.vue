@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import SEO from "./utils/SEO";
 import { mapState, mapActions } from "vuex";
 import Navigation from "./components/Navigation";
 import InvoiceModal from "./components/InvoiceModal";
@@ -32,6 +33,19 @@ export default {
     Navigation,
     InvoiceModal,
     Modal,
+  },
+  metaInfo() {
+    return {
+      title: SEO.title,
+      meta: [
+        { name: "description", content: SEO.description },
+        { name: "keywords", content: SEO.keywords },
+        // Add more meta tags as needed
+      ],
+      link: [
+        // Add any link tags (e.g., canonical, alternate) here
+      ],
+    };
   },
   created() {
     this.GET_INVOICES();
